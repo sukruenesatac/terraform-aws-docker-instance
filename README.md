@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<sukruenesatac>/docker-instance/aws"
+    source = "sukruenesatac/docker-instance/aws"
     key_name = "example-key"
 }
 ```
